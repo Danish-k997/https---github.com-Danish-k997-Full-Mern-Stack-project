@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhai+2:wght@400..800&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Headland+One&family=Playwrite+PL:wght@100..400&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+a.active hr{
+  display: block;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+@media (max-width:640px){
+ a.active{
+  background-color:black;
+  color:white;
+ }
+}
