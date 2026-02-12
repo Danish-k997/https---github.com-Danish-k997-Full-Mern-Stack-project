@@ -10,7 +10,7 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
   const currency = "$";
   const delivery_fee = 10;
-  const backendurl = import.meta.env.VITE_BACKEND_URL;
+  const backendurl = https://https-github-com-danish-k997-full-mern.onrender.com;
   const [search, setSearch] = useState("");
   const [showSearch, setshowSearch] = useState(false);
   const [cartItems, setCartItems] = useState({});
